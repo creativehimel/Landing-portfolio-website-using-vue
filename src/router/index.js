@@ -2,6 +2,14 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
 const router = createRouter({
+  scrollBehavior(to, from, savedPostion) {
+    if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: 'smooth'
+      }
+    }
+  },
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
