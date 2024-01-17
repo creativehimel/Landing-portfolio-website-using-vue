@@ -9,6 +9,9 @@ export default {
       },
       fontFamily: {
         inter: "'Inter', sans-serif"
+      },
+      backgroundImage: {
+        'hero-pattern': "url('@/assets/images/hero-bg.svg')"
       }
     }
   },
