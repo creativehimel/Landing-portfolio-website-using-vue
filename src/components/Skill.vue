@@ -1,13 +1,13 @@
 <script setup></script>
 <template>
-  <section class="relative">
+  <section class="relative" id="skills">
     <div class="absolute right-0 top-0">
-      <img src="../assets/images/left-dots.svg" alt="" />
+      <img src="../assets/images/right-dots.svg" alt="" />
     </div>
   </section>
   <section class="max-w-7xl mx-auto md:my-40 px-5">
     <div class="flex flex-col sm:flex-row justify-between items-center gap-5">
-      <div class="md:w-1/2 space-y2 mb-5">
+      <div class="md:w-1/2 space-y-2 mb-5">
         <div class="relative">
           <svg
             width="99"

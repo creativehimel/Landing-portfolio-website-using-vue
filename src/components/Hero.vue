@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
-  <section class="relative">
+  <section class="relative" id="about">
     <div class="bg-hero-pattern h-screen bg-no-repeat object-cover"></div>
     <div class="absolute top-14 right-0 left-0">
       <div class="hero min-h-screen">

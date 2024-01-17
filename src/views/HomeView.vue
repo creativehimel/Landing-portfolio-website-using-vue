@@ -2,6 +2,7 @@
 import Hero from '@/components/Hero.vue'
 import Feature from '@/components/FeatureSection.vue'
 import Skill from '@/components/Skill.vue'
+import Portfolio from '@/components/Portfolio.vue'
 </script>
 
 <template>
@@ -9,5 +10,6 @@ import Skill from '@/components/Skill.vue'
     <Hero />
     <Feature />
     <Skill />
+    <Portfolio />
   </main>
 </template>
